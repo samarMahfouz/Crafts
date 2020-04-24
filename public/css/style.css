@@ -1,0 +1,432 @@
+/* Start main rules */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  margin-top: -21px;
+  min-height: 100%;
+  margin-bottom: -70px;
+  background-color:#ffeff9
+}
+.pluss {height: 73px;}
+.leads{text-transform: capitalize;}
+h1{
+  color:#3d0e5a;
+   margin-bottom: 30px;
+  padding-top: 55px;
+   text-transform: capitalize
+ }
+h2, h3, h4{color: #b53471;}
+/* End main rules */
+
+/* Start bootstrap rules */
+.navbar{border-radius: 0; background-color:#B53471}
+.navbar-inverse .navbar-brand{
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-text{
+   color:white;
+   text-transform: capitalize;
+   font-weight: bold
+ }
+ .logo a:focus, a:hover{color:white}
+ a:focus, a:hover{
+   color: #d28dad;
+   text-decoration: none;
+ }
+/* End bootstrap rules */
+
+/* Start navbar */
+nav{background-color:#3d0f5a}
+nav a{color:#fff; font-weight: bold; text-transform: capitalize;}
+ /* End navbar */
+
+/* Start header  */
+header {
+  background:url('../upload/header.jpg');
+  margin-top: -22px;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  position: relative;
+}
+header .overlay{
+  background-color:rgba(181, 52, 113, .8);
+  width:100%;
+  height:100%
+}
+header section {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+header section h1{color: white}
+header section a{
+  color: #b53471;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 13px;
+  display: inline-block;
+  transition: all .5s ease-in-out
+}
+header section a:hover{
+  background-color: #b53471;
+  color: white
+}
+/* End header  */
+
+/* Start my designs */
+.la, .about{
+    background-color: #ffeff9;
+}
+.my-design{
+      margin-top: -21px;
+  padding:40px 0;
+  text-transform: capitalize;
+  background-color: #a92762;
+}
+.inner-design {
+    background-color: #feeff9;
+}
+
+.my-design h2{
+  font-weight: normal;
+  text-align: center;
+    color: #feeff9;
+    font-size: 30px;
+}
+.inner-design h2 {  color: #b53471;}
+.my-design h4{color:#feeff9}
+.inner-design h4{color: #b53471;}
+.my-design a{color:#b53471}
+.my-design ul{margin-top:25px}
+.my-design ul li{
+  display: inline-block;
+  border:2px solid #feeff9;
+  color:#feeff9;
+  padding:10px;
+  border-radius: 5px;
+  margin-right:5px;
+  transition: all 1s ease-in-out
+}
+.my-design ul li.selected,
+.my-design ul li:hover{
+  background-color: #feeff9;
+  border: 2px solid #feeff9;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #a92762;
+  font-weight: bold;
+}
+.my-design ul .selected{color:#fff}
+.my-design .gallery{
+  margin-top:25px;
+  overflow:hidden
+}
+.inner-design ul li.selected, .inner-designn ul li:hover {
+    background-color: #b53471;
+    border: 2px solid #b53471;
+    color: #feeff9
+}
+.inner-design ul li {
+    border: 2px solid #b53471;
+    color: #b53471;
+}
+.my-design .gallery .row > div{
+  float:left;
+  margin-bottom:6px;
+  position: relative;
+}
+.my-design .gallery .row > div .overlay
+{display: none; line-height: 250px; text-align: center;}
+.my-design .overlay a{
+    color: white;
+    text-align: center;
+
+}
+.my-design .gallery .row > div .heart{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  display: none
+}
+.my-design .spe-s{color:#feeff9 !important}
+.my-design .gallery img{
+  width:100%;
+  display: inline-block;
+margin-top: 14px;
+}
+@media (min-width:991px){
+  .my-design h2{
+      font-size: 40px;
+  }
+  .my-design ul{margin-top:50px}
+  .my-design .gallery{
+    margin-top:50px;
+  }
+  .my-design .gallery .row > div{
+    margin-bottom:12px;
+  }
+}
+.links .select
+{
+  background-color: #feeff9;
+  border: 2px solid #feeff9;
+  border-radius: 5px;
+}
+.links .select a{color:#B53471}
+.my-design img{
+  display: inline-block;
+margin-top: 10px;
+border: 2px solid #ecb2cd;
+border-radius: 10px;
+}
+.one-design img{
+  display: inline-block;
+margin-top: 10px;
+border: 2px solid #ecb2cd;
+border-radius: 10px;
+width:500px
+}
+.one-design .gallery img{width:200px}
+.comment{
+  width: 350px;
+margin: 50px 0;
+}
+/* End my designs */
+
+/* Start control panel page  */
+ .table>tbody>tr>td,
+ .table>tbody>tr>th,
+ .table>tfoot>tr>td,
+ .table>tfoot>tr>th,
+ .table>thead>tr>td,
+ .table>thead>tr>th{
+   border: 1px solid #ababab;
+   border: 1px solid #ababab;
+  text-transform: capitalize;
+  color: #3097d1;
+  text-align: center;
+   }
+ .table>tbody>tr>td{color:#4a4a4a}
+ /* End control panel page  */
+
+ /* Start user area page   */
+ .register{
+text-transform: capitalize;
+}
+.register h2{
+  color: #b53f99;
+  margin-top: 100px
+}
+.register form{
+max-width: 350px;
+margin: 50px auto;
+border: 2px solid #e2e2e2;
+    padding: 25px;
+
+}
+.register form input{margin-bottom:20px}
+.register form input{text-transform: capitalize;}
+.my-navbar a{
+  font-size: 11px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 5px;
+  text-transform: capitalize;
+  text-decoration: none
+}
+.register{
+    margin: 20px auto 120px;
+    text-transform: capitalize;
+        margin-bottom: 170px;
+}
+.register input::placeholder {  color: #a2a2a2}
+.reg-posts{
+  margin:10px;
+  margin-top:60px
+}
+.reg-posts h3{
+  text-align: left;
+  margin-top: -59px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 10px;
+}
+.reg-posts form{
+  margin:10px
+}
+.reg-posts form button{
+  background-color: #a92762;
+border-color: #a92762;
+}
+/* End user area page   */
+.about h2{
+  color: #c15c8a;
+  text-align: center;
+  padding-bottom: 30px
+}
+.s-about{
+      margin-top: -21px;
+}
+.la .img img, .about .img img{width: 100%;   border-radius: 60%;     margin-top: 24px;}
+.about{    padding: 50px 0 0 0;}
+.about h3{color:#b53471; margin-bottom: 25px}
+.about span{font-size:13px}
+.about .con{overflow: hidden; text-transform: capitalize}
+.about .info{
+  float: left;
+    width: 67%;
+    color: #969696;
+    padding: 0 0px 41px 30px;
+}
+.about .img{
+  float: left;
+  width: 21%;
+  color: #969696;
+  padding: 0 0px 41px 30px;
+}
+.about .info p{
+  width: 400px;
+  padding: 10px 15px;
+  color: #616161;
+}
+.about .info ul li{color: #616161;}
+.last-reg{
+  background-color: #feeff9;
+  padding: 5px;
+}
+.last-reg a{
+  display: inline-block;
+  font-size: 15px;
+  color: #a92762;
+  text-transform: capitalize;
+  margin-right:10px;
+  font-weight: bold
+}
+.last-reg a span{font-size:18px}
+.statistics{
+  width: 500px;
+margin: 50px auto;
+}
+.plus{    margin-top: 39px;}
+.gallery .m-a{
+    color: #651138;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+.s-p p{
+  padding: 15px;
+  border-radius: 25px;
+  background-color: transparent;
+color: #655b60;
+
+    margin-top:20px
+
+}
+.s-p .f-p{
+  color: #b53471;
+     text-align: center;
+     font-weight: bold;
+     font-size:12px
+   }
+.pempe{color:#b53471 !important; font-weight: bold}
+/************** start section one **************/
+.most-lovely{  border-bottom: 2px solid #f3f3f3}
+.most-lovely h2{
+  text-align: center;
+    font-size: 33px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-top: 55px;
+}
+.most-lovely section article{
+	padding: 20px;
+    text-transform: capitalize
+}
+.most-lovely section .firsarti{
+	margin-right: 20px;
+	padding:50px 0;
+}
+.most-lovely section .firsarti img{
+  display: inline-block;
+  padding: 0;
+  border-radius: 5px;
+  margin-top:25px;
+}
+.most-lovely img{
+  border: 2px solid #ecb2cd;
+  border-radius: 10px;
+}
+.article-content-one{padding-left: 25px}
+.article-content-one .aspecial{
+	display: inline-block;
+    border-radius: 7%;
+    box-shadow: 2px 2px 2px #b53995 inset, -2px -2px 2px #b53995 inset;
+    color: #b53995;
+    padding:10px 15px
+}
+ aside{
+    text-align: center;
+	color: white;
+    text-transform: capitalize;
+    background-color: #912959;
+    height: 346px;
+
+}
+aside h4{
+    margin-top: 125px;
+    margin-bottom: 20px;
+    padding-bottom: 11px;
+    color:#feeff9
+}
+.one-design aside h3{
+  margin-top: 0;
+  padding-top:125px
+}
+.one-design .content-p{
+  width: 500px;
+  padding: 25px 0 25px;
+  color: #5a5a5a;
+}
+.article-content {position:relative;  margin-bottom: 30px;  border-bottom:2px solid #b53471;  padding-bottom: 20px}
+.article-content .aspecial{
+    margin-left: 157px;
+    margin-top: 0px;
+    color:#b53471;
+    font-weight:bold;
+    display: inline-block;
+    border-radius: 7%;
+}
+.most-lovely .image{width:250px}
+ aside p{
+	color: #d1d7d3;
+	line-height: 1.5;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* Start footer */
+footer{
+  background-color: #a92762;
+  color: white;
+  padding-top: 185px;
+  padding-bottom:5px;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+@media (min-width:991px){
+  footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+}
+.footer{height: 50px;}
+/* End footer */
