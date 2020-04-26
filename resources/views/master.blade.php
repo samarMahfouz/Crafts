@@ -11,7 +11,7 @@
         <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aref+Ruqaa&display=swap">
         <!-- Styles -->
         <link href="https://floating-earth-57056.herokuapp.com/css/app.css" rel="stylesheet">
-        <link href="https://floating-earth-57056.herokuapp.com/css/style.css">
+        <link href="https://floating-earth-57056.herokuapp.com/css/style.css"  rel="stylesheet">
         <style>
             html, body {
                 background-color: #fff;
