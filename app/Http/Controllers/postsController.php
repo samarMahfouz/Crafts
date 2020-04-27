@@ -16,6 +16,10 @@ class postsController extends Controller
       $cat_name = Category::all();
       return view('content.posts', compact('posts', 'cat_name', 'latestposts', 'last'));
     }
+    public function showCats(){
+      $cats = Category::all();
+      return view('content.addcategory', compact('cats'));
+    }
     public function allPosts() {
       $users = User::all();
       $posts = Post::all();
@@ -43,6 +47,18 @@ class postsController extends Controller
       $post->save();
       $request->url->move(public_path('upload'), $img_name);
       return redirect('/allposts');
+    }
+    public function catNew(Request $request){
+      $this->validate(request(), [
+        'name' => 'required|min:5',
+        'description' => 'required'
+      ]);
+      $post = new Category;
+      $post->name = request('name');
+      $post->description = request('description');
+
+      $post->save();
+      return redirect('/addcategory');
     }
     public function edit(Post $post, Category $cat){
       $posts = Post::all();
