@@ -13,7 +13,7 @@ class PagesController extends Controller
     public function admin() {
       $id = auth()->user()->id;
       $users = User::all();
-      if($id === 1) {
+      if($id == 1) {
         return view('content.admin', compact('users'));
       }else{
         return redirect('/');
@@ -51,7 +51,7 @@ class PagesController extends Controller
     public function statistics() {
       $user = User::find('id');
       $id = auth()->user()->id;
-      if($id === 1) {
+      if($id == 1) {
         $users    = DB::table('users')->count();
         $posts    = DB::table('posts')->count();
         $comments = DB::table('comments')->count();

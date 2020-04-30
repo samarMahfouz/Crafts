@@ -8,7 +8,7 @@
       <section class="img"><img src="upload/myim.jpg" alt="my-image"/></section>
       <section class="info">
        <h3>{{$user->name}}</h3>
-       <p>{{$user->info}}</p>
+       
       </section>
     </section>
       <hr>
